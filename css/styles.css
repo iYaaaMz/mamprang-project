@@ -3534,7 +3534,7 @@ textarea.form-control-lg {
   list-style: none;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  /* border: 1px solid rgba(0, 0, 0, 0.15); */
 }
 .dropdown-menu[data-bs-popper] {
   top: 100%;
@@ -11076,6 +11076,9 @@ blockquote {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
     color: rgba(255, 255, 255, 0.8);
+  }
+  .nav-item .dropdown .nav-link {
+    color: #fff;
   }
 }
 @media (min-width: 992px) {
